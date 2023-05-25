@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    margin-top: -19px;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://preview.colorlib.com/theme/security/img/header-bg.jpg.webp);
+}
+.news{
+ padding-top: 300px;
+ color: white;
+ height: 98vh;
+ padding-left: 40px;
+ background-color: rgba(0, 0, 0, 0.443);
+}
+.news button{
+    margin-top: 15px;
+    width: 150px;
+    background-color: #fab700;
+    color: white;
+    border: none;
+    height: 40px;
+}
+.news button:hover{
+    border: 1px solid #fab700;
+    color: #fab700;
+    background-color: rgba(0, 0, 0, 0.443); ;
+}
+.news p:nth-child(3){
+    width: 50%;
+
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 350px;
+
+}
+.box img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.box:hover{
+  background-color:#fab700;
+  transition: 1s;
+ 
+}
+.middle h1{
+    font-size: 30px;
+}
+.middle p{
+    font-size: 16px;
+    width: 80%;
+    text-align: center;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px auto;
+}
